@@ -32,11 +32,7 @@ public static void main(String[] args){
         else if ((comp == 3) && (player== 1)){
             System.out.println("User won the round.");
             pointPlayer += point;}
- else if ((comp == 1) && (player == 1)){
-            System.out.println("Tie of round.");}
-        else if ((comp == 2) && (player == 2)){
-            System.out.println("Tie of round.");}
-        else if ((comp == 3) && (player == 3)){
+        else if (comp == player){
             System.out.println("Tie of round.");}
     round++;
         }
